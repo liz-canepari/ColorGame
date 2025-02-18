@@ -1,0 +1,53 @@
+[Game]
+    |
+    +-- [GameStateManager]
+    |   |
+    |   +-- [Main Menu]
+    |   |
+    |   +-- [Game Screen]
+    |       |
+    |       +-- [HUD]
+    |       |
+    |       +-- [GUI]
+    |       |
+    |       +-- [World]
+    |           |
+    |           +-- [LevelManager]
+    |           |   |
+    |           |   +-- [Objects] (Interactable)
+    |           |   |   |
+    |           |   |   +-- [Item] (Base Class)
+    |           |   |       |
+    |           |   |       +-- [Key] (Example Item)
+    |           |   |       +-- [Potion] (Example Item)
+    |           |   |       +-- [PuzzlePiece] (Example Item)
+    |           |   |
+    |           |   +-- [NPCs]
+    |           |   |
+    |           |   +-- [Player]
+    |               |
+    |               +-- [Movement]
+    |               |
+    |               +-- [User Input]
+    |               |
+    |               +-- [Collisions]
+    |               |
+    |               +-- [Inventory]
+    |               |
+    |               +-- [Animation]
+    |
+    +-- [Database] (SQLite)
+    |
+    +-- [Display]
+    |
+    +-- [SoundManager]
+    |
+    +-- [DialogueManager]
+    |
+    +-- [QuestManager] (Optional)
+    |
+    +-- [Camera]
+    |
+    +-- [ParticleSystem]
+    |
+    +-- [Utils/Helpers]
