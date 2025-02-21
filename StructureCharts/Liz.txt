@@ -19,7 +19,7 @@
     |           |   |   +-- [Item] (Base Class)
     |           |   |       |
     |           |   |       +-- [Key] (Example Item)
-    |           |   |       +-- [Potion] (Example Item)
+    |           |   |       +-- [Color] (Example Item)
     |           |   |       +-- [PuzzlePiece] (Example Item)
     |           |   |
     |           |   +-- [NPCs]
@@ -47,7 +47,5 @@
     +-- [QuestManager] (Optional)
     |
     +-- [Camera]
-    |
-    +-- [ParticleSystem]
     |
     +-- [Utils/Helpers]
