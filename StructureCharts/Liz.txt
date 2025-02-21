@@ -10,8 +10,9 @@
     |       |
     |       +-- [GUI]
     |       |
-    |       +-- [World]
+    |       +-- [World]  
     |           |
+    |           +-- [Transitions]
     |           +-- [LevelManager]
     |           |   |
     |           |   +-- [Objects] (Interactable)
